@@ -1,7 +1,7 @@
 package com.bl.empwagebuilder_day10;
 /*
  * @Author: Rajesh Pal
- *Managing employee wage using interface approach.
+ *Storing the daily wage along with the total wage.
  */
 public interface EmpWageCalculation {
 	public void addCompanyEmpWage(String company, int empRatePerHr, int noOfWorkingDays, int maxHrsPerMonth);
